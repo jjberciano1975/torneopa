@@ -2,7 +2,8 @@ package servlet.com.torneopa.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.*;
+
+import javax.servlet.ServletException;
 import javax.servlet.http.*;
 
 public class Torneopa extends HttpServlet {
@@ -15,10 +16,10 @@ public class Torneopa extends HttpServlet {
 		PrintWriter pw = res.getWriter();
 		pw.println("<Html><Head><Title>torneo pa</Title></Head>");
 		pw.println("<BODY BGCOLOR=\"#CCBBAA\">");
-		pw.println("<H2>Leyendo parámetros desde un formulario html</H2><P>");
+		pw.println("<H2>Leyendo parametros desde un formulario html</H2><P>");
 		pw.println("<UL>\n");
 		pw.println("Te llamas " + req.getParameter("NOM") + "<BR>");
-		pw.println("y tienes "  + req.getParameter("EDA") + " años<BR>");
+		pw.println("y tienes "  + req.getParameter("EDA") + " anios<BR>");
 		pw.println("</BODY></Html>");
 		pw.close();
 	}
