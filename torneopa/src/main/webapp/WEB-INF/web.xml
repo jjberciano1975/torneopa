@@ -6,8 +6,7 @@
   <display-name>Torneopa</display-name>
 	<servlet>
 		<servlet-name>Torneopa</servlet-name>
-		<servlet-class>Torneopa</servlet-class>
-		<load-on-startup>1</load-on-startup>
+		<servlet-class>Torneopa</servlet-class>		
 	</servlet>
 
 	<servlet-mapping>
