@@ -9,10 +9,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
+
 /**
  * Servlet implementation class Torneopa
  */
 public class Torneopa extends HttpServlet {
+	public static void main(String[] args) {
+		
+	}
+	
 	private static final long serialVersionUID = 1L;
        
     /**
