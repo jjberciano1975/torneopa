@@ -1,4 +1,4 @@
-package com.torneopa.web;
+package servlet.com.torneopa.web;
 
 
 

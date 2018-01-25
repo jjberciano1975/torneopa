@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>torneopa</title>
-</head>
-<body>
-hola torneo pa
-</body>
-</html>
+<!--Param.html	Lectura de parámetros con formularios + servlets -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+  <HEAD><TITLE>torneo pa</TITLE></HEAD>
+  <BODY BGCOLOR="#CCCCFF">
+  <P></P>
+  <H2>Introduce tus datos:</H2><BR>
+    <HR></HR>
+    <CENTER>
+	 <FORM NAME="FORM1" METHOD="POST"
+		ACTION="http://localhost:8080/misServlets/ParamServlet">
+	   <TABLE BORDER>
+		<TR>
+		  <TD><B>Nombre:</TD>
+		  <TD><INPUT ENGINE=TEXTBOX NAME="NOM" SIZE="25" VALUE=""></TD>
+		</TR>
+		<TR>
+		  <TD><B>Edad:</TD>
+		  <TD><INPUT ENGINE=TEXTBOX NAME="EDA" SIZE="20" VALUE=""></TD>
+		</TR>
+	   </TABLE>
+	   <P></P>
+	   <INPUT ENGINE=SUBMIT VALUE="Enviar">
+	   <HR></HR>
+	   Formulario HTML que invocará a un servlet
+         </FORM>
+      </CENTER>
+  </BODY>
+</HTML>
