@@ -13,13 +13,13 @@ public class Torneopa extends HttpServlet {
 		// Obtenemos un objeto Print Writer para enviar respuesta
 		res.setContentType("text/html");
 		PrintWriter pw = res.getWriter();
-		pw.println("<HTML><HEAD><TITLE>Leyendo parámetros</TITLE></HEAD>");
+		pw.println("<Html><Head><Title>torneo pa</Title></Head>");
 		pw.println("<BODY BGCOLOR=\"#CCBBAA\">");
 		pw.println("<H2>Leyendo parámetros desde un formulario html</H2><P>");
 		pw.println("<UL>\n");
 		pw.println("Te llamas " + req.getParameter("NOM") + "<BR>");
 		pw.println("y tienes "  + req.getParameter("EDA") + " años<BR>");
-		pw.println("</BODY></HTML>");
+		pw.println("</BODY></Html>");
 		pw.close();
 	}
-} 
+}

@@ -11,7 +11,7 @@
 
 	<servlet-mapping>
 		<servlet-name>Torneopa</servlet-name>
-		<url-pattern>/servlet/*</url-pattern>
+		<url-pattern>/servlet/com/torneopa/web/*</url-pattern>
 	</servlet-mapping>
 
 </web-app>
