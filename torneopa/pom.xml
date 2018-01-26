@@ -96,7 +96,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.paises.ztorneopa.Torneopa</mainClass>
+                          
                             <name>webapp</name>
                         </program>
                     </programs>
