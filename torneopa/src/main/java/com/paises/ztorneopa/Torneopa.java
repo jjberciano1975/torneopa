@@ -31,7 +31,7 @@ public class Torneopa extends HttpServlet {
 	            webPort = "8080";
 	        }
 
-	        tomcat.setPort(Integer.valueOf(webPort));
+	    //    tomcat.setPort(Integer.valueOf(webPort));
 
 	        tomcat.addWebapp("/", new File(webappDirLocation).getAbsolutePath());
 	        System.out.println("configuring app with basedir: "
