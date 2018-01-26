@@ -1,13 +1,14 @@
 package launch;
 
 import java.io.File;
+
 import org.apache.catalina.startup.Tomcat;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
         String webappDirLocation = "src/main/webapp/";
-        Tomcat tomcat = new Tomcat();
+       /* Tomcat tomcat = new Tomcat();
         
         String webPort = System.getenv("PORT");
         if (webPort == null || webPort.isEmpty()) {
@@ -22,6 +23,7 @@ public class Main {
 
         tomcat.start();
         tomcat.getServer().await();
-
+        */
+        System.out.println("FIN MAIN ");
     }
 }
